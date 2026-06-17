@@ -7,6 +7,7 @@ AI Travel Planner Agent is a MINIPROJECT by Team Thrive. It creates a weather-aw
 - Rule-based packing suggestions from weather conditions
 - Destination profiles for more practical local recommendations
 
+
 ## What It Does
 
 The app asks the user:
@@ -70,6 +71,9 @@ Install and run Ollama:
 
 ```bash
 ollama pull llama3.2:3b
+
+pip install -q ollama
+
 ollama serve
 ```
 
